@@ -331,7 +331,7 @@
       "id": "HostB6",
       "icon": "router",
       "position": {
-        "x": 259,
+        "x": 273,
         "y": -7
       },
       "geoCoordinates": {
@@ -343,7 +343,7 @@
       "id": "HostB7",
       "icon": "router",
       "position": {
-        "x": 203,
+        "x": 189,
         "y": -7
       },
       "geoCoordinates": {
@@ -451,7 +451,7 @@
       "id": "CORE",
       "icon": "router",
       "position": {
-        "x": 105,
+        "x": 119,
         "y": 35
       },
       "geoCoordinates": {
