@@ -1,0 +1,163 @@
+{
+  "freeTextAnnotations": [],
+  "groupStyleAnnotations": [],
+  "cloudNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "A-SPINE",
+      "icon": "router",
+      "position": {
+        "x": 133,
+        "y": 301
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "A-LEAF",
+      "icon": "router",
+      "position": {
+        "x": 133,
+        "y": 343
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "A-BORDER-1",
+      "icon": "router",
+      "position": {
+        "x": 91,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "A-BORDER-2",
+      "icon": "router",
+      "position": {
+        "x": 175,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "B-SPINE",
+      "icon": "router",
+      "position": {
+        "x": 301,
+        "y": 301
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "B-LEAF",
+      "icon": "router",
+      "position": {
+        "x": 301,
+        "y": 343
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "B-BORDER-1",
+      "icon": "router",
+      "position": {
+        "x": 259,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "B-BORDER-2",
+      "icon": "router",
+      "position": {
+        "x": 343,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "DCI-MPLS",
+      "icon": "router",
+      "position": {
+        "x": 217,
+        "y": 217
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "HostA1",
+      "icon": "router",
+      "position": {
+        "x": 105,
+        "y": 371
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "HostA2",
+      "icon": "router",
+      "position": {
+        "x": 161,
+        "y": 371
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "HostB1",
+      "icon": "router",
+      "position": {
+        "x": 273,
+        "y": 371
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "HostB2",
+      "icon": "router",
+      "position": {
+        "x": 329,
+        "y": 371
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    }
+  ]
+}
