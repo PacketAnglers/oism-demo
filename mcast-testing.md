@@ -31,3 +31,11 @@ Sender PD1-H1
         iperf -c 239.201.10.101 -u -b 250K -T 100 -t 3600 -i 1
     Receiver:
         iperf -s -u -B 239.201.10.101 -i 1
+
+## Flow 5
+
+Sender PD1-H3
+    Source:
+        iperf -c 239.201.30.101 -u -b 250K -T 100 -t 3600 -i 1
+    Receiver:
+        iperf -s -u -B 239.201.30.101 -i 1
