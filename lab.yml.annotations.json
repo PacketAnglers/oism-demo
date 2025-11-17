@@ -213,7 +213,7 @@
       "icon": "router",
       "position": {
         "x": 35,
-        "y": 273
+        "y": 287
       },
       "geoCoordinates": {
         "lat": 48.684826888402256,
@@ -225,7 +225,7 @@
       "icon": "router",
       "position": {
         "x": 91,
-        "y": 273
+        "y": 287
       },
       "geoCoordinates": {
         "lat": 48.88482688840226,
@@ -437,7 +437,7 @@
         "lat": 48.78482688840226,
         "lng": 9.207895390625676
       },
-      "group": "groupName41",
+      "group": "PIM Domain",
       "level": "1"
     },
     {
@@ -451,7 +451,7 @@
         "lat": 48.98482688840225,
         "lng": 9.407895390625677
       },
-      "group": "groupName41",
+      "group": "PIM Domain",
       "level": "1"
     },
     {
@@ -465,7 +465,7 @@
         "lat": 49.184826888402256,
         "lng": 9.607895390625677
       },
-      "group": "groupName41",
+      "group": "PIM Domain",
       "level": "1"
     },
     {
@@ -473,12 +473,14 @@
       "icon": "router",
       "position": {
         "x": -21,
-        "y": 273
+        "y": 287
       },
       "geoCoordinates": {
         "lat": 49.38482688840226,
         "lng": 9.807895390625678
-      }
+      },
+      "group": "PIM Domain",
+      "level": "2"
     },
     {
       "id": "PD1-H1",
@@ -491,7 +493,7 @@
         "lat": 48.684826888402256,
         "lng": 9.107895390625677
       },
-      "group": "groupName41",
+      "group": "PIM Domain",
       "level": "1"
     },
     {
@@ -505,7 +507,7 @@
         "lat": 48.88482688840226,
         "lng": 9.307895390625678
       },
-      "group": "groupName41",
+      "group": "PIM Domain",
       "level": "1"
     },
     {
@@ -518,7 +520,9 @@
       "geoCoordinates": {
         "lat": 49.084826888402254,
         "lng": 9.507895390625677
-      }
+      },
+      "group": "PIM Domain",
+      "level": "2"
     },
     {
       "id": "EXT-SW-1",
