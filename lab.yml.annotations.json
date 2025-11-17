@@ -1,6 +1,51 @@
 {
   "freeTextAnnotations": [],
-  "groupStyleAnnotations": [],
+  "groupStyleAnnotations": [
+    {
+      "id": "EVPN Domain A:1",
+      "backgroundColor": "#526eff",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-left"
+    },
+    {
+      "id": "EVPN Domain B:1",
+      "backgroundColor": "#0d9bbf",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-right"
+    },
+    {
+      "id": "PIM Domain:1",
+      "backgroundColor": "#d44040",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-center"
+    },
+    {
+      "id": "PIM Domain:2",
+      "backgroundColor": "#d44040",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "bottom-center"
+    }
+  ],
   "cloudNodeAnnotations": [],
   "nodeAnnotations": [
     {
@@ -13,7 +58,9 @@
       "geoCoordinates": {
         "lat": 48.684826888402256,
         "lng": 9.007895390625677
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-1",
@@ -25,7 +72,9 @@
       "geoCoordinates": {
         "lat": 48.684826888402256,
         "lng": 9.107895390625677
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-2",
@@ -37,7 +86,9 @@
       "geoCoordinates": {
         "lat": 48.88482688840226,
         "lng": 9.307895390625678
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-3",
@@ -49,7 +100,9 @@
       "geoCoordinates": {
         "lat": 49.084826888402254,
         "lng": 9.507895390625677
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-4",
@@ -61,7 +114,9 @@
       "geoCoordinates": {
         "lat": 49.28482688840226,
         "lng": 9.707895390625676
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-5",
@@ -73,7 +128,9 @@
       "geoCoordinates": {
         "lat": 49.48482688840225,
         "lng": 9.007895390625677
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-7",
@@ -85,7 +142,9 @@
       "geoCoordinates": {
         "lat": 48.78482688840226,
         "lng": 9.207895390625676
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-LEAF-8",
@@ -97,7 +156,9 @@
       "geoCoordinates": {
         "lat": 48.98482688840225,
         "lng": 9.407895390625677
-      }
+      },
+      "group": "EVPN Domain A",
+      "level": "1"
     },
     {
       "id": "A-SW-1",
@@ -175,91 +236,105 @@
       "id": "B-SPINE",
       "icon": "router",
       "position": {
-        "x": 231,
+        "x": 287,
         "y": 161
       },
       "geoCoordinates": {
         "lat": 48.684826888402256,
         "lng": 9.007895390625677
-      }
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
     },
     {
       "id": "B-LEAF-1",
-      "icon": "router",
-      "position": {
-        "x": 147,
-        "y": 231
-      },
-      "geoCoordinates": {
-        "lat": 49.084826888402254,
-        "lng": 9.507895390625677
-      }
-    },
-    {
-      "id": "B-LEAF-2",
       "icon": "router",
       "position": {
         "x": 203,
         "y": 231
       },
       "geoCoordinates": {
-        "lat": 49.28482688840226,
-        "lng": 9.707895390625676
-      }
+        "lat": 49.084826888402254,
+        "lng": 9.507895390625677
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
     },
     {
-      "id": "B-LEAF-3",
+      "id": "B-LEAF-2",
       "icon": "router",
       "position": {
         "x": 259,
         "y": 231
       },
       "geoCoordinates": {
-        "lat": 49.48482688840225,
-        "lng": 9.007895390625677
-      }
+        "lat": 49.28482688840226,
+        "lng": 9.707895390625676
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
     },
     {
-      "id": "B-LEAF-4",
+      "id": "B-LEAF-3",
       "icon": "router",
       "position": {
         "x": 315,
         "y": 231
       },
       "geoCoordinates": {
+        "lat": 49.48482688840225,
+        "lng": 9.007895390625677
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
+    },
+    {
+      "id": "B-LEAF-4",
+      "icon": "router",
+      "position": {
+        "x": 371,
+        "y": 231
+      },
+      "geoCoordinates": {
         "lat": 48.78482688840226,
         "lng": 9.207895390625676
-      }
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
     },
     {
       "id": "B-LEAF-7",
       "icon": "router",
       "position": {
-        "x": 189,
+        "x": 245,
         "y": 91
       },
       "geoCoordinates": {
         "lat": 48.98482688840225,
         "lng": 9.407895390625677
-      }
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
     },
     {
       "id": "B-LEAF-8",
       "icon": "router",
       "position": {
-        "x": 273,
+        "x": 329,
         "y": 91
       },
       "geoCoordinates": {
         "lat": 49.184826888402256,
         "lng": 9.607895390625677
-      }
+      },
+      "group": "EVPN Domain B",
+      "level": "1"
     },
     {
       "id": "B-SW-1",
       "icon": "router",
       "position": {
-        "x": 231,
+        "x": 287,
         "y": 35
       },
       "geoCoordinates": {
@@ -271,7 +346,7 @@
       "id": "HostB1",
       "icon": "router",
       "position": {
-        "x": 147,
+        "x": 203,
         "y": 273
       },
       "geoCoordinates": {
@@ -283,7 +358,7 @@
       "id": "HostB2",
       "icon": "router",
       "position": {
-        "x": 203,
+        "x": 259,
         "y": 273
       },
       "geoCoordinates": {
@@ -295,7 +370,7 @@
       "id": "HostB3",
       "icon": "router",
       "position": {
-        "x": 259,
+        "x": 315,
         "y": 273
       },
       "geoCoordinates": {
@@ -307,7 +382,7 @@
       "id": "HostB4",
       "icon": "router",
       "position": {
-        "x": 301,
+        "x": 357,
         "y": 315
       },
       "geoCoordinates": {
@@ -319,7 +394,7 @@
       "id": "HostB5",
       "icon": "router",
       "position": {
-        "x": 329,
+        "x": 385,
         "y": 315
       },
       "geoCoordinates": {
@@ -331,8 +406,8 @@
       "id": "HostB6",
       "icon": "router",
       "position": {
-        "x": 273,
-        "y": -7
+        "x": 315,
+        "y": 7
       },
       "geoCoordinates": {
         "lat": 49.28482688840226,
@@ -343,8 +418,8 @@
       "id": "HostB7",
       "icon": "router",
       "position": {
-        "x": 189,
-        "y": -7
+        "x": 259,
+        "y": 7
       },
       "geoCoordinates": {
         "lat": 49.48482688840225,
@@ -361,7 +436,9 @@
       "geoCoordinates": {
         "lat": 48.78482688840226,
         "lng": 9.207895390625676
-      }
+      },
+      "group": "groupName41",
+      "level": "1"
     },
     {
       "id": "PD1-R2",
@@ -373,7 +450,9 @@
       "geoCoordinates": {
         "lat": 48.98482688840225,
         "lng": 9.407895390625677
-      }
+      },
+      "group": "groupName41",
+      "level": "1"
     },
     {
       "id": "PD1-R3",
@@ -385,7 +464,9 @@
       "geoCoordinates": {
         "lat": 49.184826888402256,
         "lng": 9.607895390625677
-      }
+      },
+      "group": "groupName41",
+      "level": "1"
     },
     {
       "id": "PD1-R4",
@@ -409,7 +490,9 @@
       "geoCoordinates": {
         "lat": 48.684826888402256,
         "lng": 9.107895390625677
-      }
+      },
+      "group": "groupName41",
+      "level": "1"
     },
     {
       "id": "PD1-H2",
@@ -421,7 +504,9 @@
       "geoCoordinates": {
         "lat": 48.88482688840226,
         "lng": 9.307895390625678
-      }
+      },
+      "group": "groupName41",
+      "level": "1"
     },
     {
       "id": "PD1-H3",
@@ -439,7 +524,7 @@
       "id": "EXT-SW-1",
       "icon": "router",
       "position": {
-        "x": 315,
+        "x": 371,
         "y": 273
       },
       "geoCoordinates": {
@@ -451,7 +536,7 @@
       "id": "CORE",
       "icon": "router",
       "position": {
-        "x": 119,
+        "x": 133,
         "y": 35
       },
       "geoCoordinates": {
