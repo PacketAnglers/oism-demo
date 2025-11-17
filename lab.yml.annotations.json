@@ -25,7 +25,7 @@
     },
     {
       "id": "PIM Domain:1",
-      "backgroundColor": "#d44040",
+      "backgroundColor": "#8018e7",
       "backgroundOpacity": 20,
       "borderColor": "#dddddd",
       "borderWidth": 0.5,
@@ -36,7 +36,7 @@
     },
     {
       "id": "PIM Domain:2",
-      "backgroundColor": "#d44040",
+      "backgroundColor": "#8018e7",
       "backgroundOpacity": 20,
       "borderColor": "#dddddd",
       "borderWidth": 0.5,
